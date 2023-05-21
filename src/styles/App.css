@@ -1,0 +1,113 @@
+.App {
+  background-color: #e8f0fa;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-form {
+  background-color: #fff;
+  padding: 2rem 2rem 7rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-form .user-img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.login-form .form-title {
+  color: #222;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  margin-top: -1rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.input-box input, select {
+  width: 25rem;
+  padding: 1rem 0.6rem;
+  font-size: 1.3rem;
+  border: none;
+  outline: 0.1rem solid #0474ed;
+  border-radius: 0.5rem;
+}
+
+.input-box input:focus {
+  outline: 0.15rem solid #0474ed;
+}
+
+
+.input-box {
+  margin: 0.6rem;
+}
+
+.login-button {
+  margin-top: 1rem;
+  background-color: #0474ed;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  width: 26.5rem;
+  padding: 1rem 0.6rem;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons .cancel-delete-btn {
+  border: 1px solid #0474ed;
+  background-color: #e8f0fa;
+  color: #0474ed;
+  font-weight: 700;
+}
+
+.buttons .continue-delete-btn {
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}

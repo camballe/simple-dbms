@@ -1,0 +1,99 @@
+table {
+    margin-top: 3rem;
+    width: 95vw;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: #0e529b;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+td {
+    background-color: #fff;
+    text-align: center;
+}
+
+th, td {
+    border: none;
+}
+
+
+.delete-btn {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete-btn .delete-icon {
+    color: red;
+}
+
+.add-btn {
+  
+    background-color: #0474ed;
+    color: white;
+}
+
+.update-btn {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.update-btn .edit-icon {
+    color: green;
+}
+
+.update-btn:hover {
+    border-color: green;
+}
+
+.delete-btn:hover {
+    border-color: red;
+}
+
+.check-icon {
+    color: green;
+}
+
+.satisfy-btn {
+    color: #0474ed;
+    font-weight: 900;
+    text-decoration: underline;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.satisfy-btn:hover {
+    color: green;
+}
+
+.below-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.below-header .search {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.below-header .search .search-bar {
+    border-radius: 0.4rem;
+    padding: 0.6rem 1rem;
+}
+
+.below-header .search .search-btn {
+    background-color: #0e529b;
+    color: #fff;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

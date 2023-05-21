@@ -1,0 +1,59 @@
+.Dashboard {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+
+.menu .tab {
+  width: 14.8rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem;
+  border: 1px solid #333;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.menu .inactive {
+  background-color: #fff;
+  color: #4074ed;
+}
+
+.menu .active {
+  background-color: #4074ed;
+  color: #fff;
+}
+
+.menu .tab:hover {
+  cursor: pointer;
+  background-color: #4074ed;
+  color: #fff;
+  border-color: #4074ed;
+}
+
+.welcome {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 10rem;
+  left: 10rem;
+  color: #555;
+}
+
+
+
